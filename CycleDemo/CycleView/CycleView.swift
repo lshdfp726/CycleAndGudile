@@ -116,7 +116,7 @@ class CycleView: CycleSuperView {
 
     //开启定时器
     func startTimer() {
-        self.timer?.fireDate = Date.init(timeInterval: 3.0, since: Date())
+        self.timer?.fireDate = Date.init(timeInterval: self.timerInterval!, since: Date())
     }
 
 
